@@ -40,7 +40,9 @@ for(var i=0; i<functionNames.length; i++) {
 					args.push(argEls[i].value);
 				}
 
-				output.innerHTML = window[name].apply(null, args).toString();
+				var result = window[name].apply(null, args);
+				if(result === undefined) result = 'undefined';
+				output.innerHTML = result.toString();
 			}
 
 			return false;
