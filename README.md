@@ -22,10 +22,10 @@ After completing this assignment, you should…
 ### Deliverables
 
 * A repo containing at least:
-  * `dist/index.html`
-  * `dist/scripts/form.js`
-  * `dist/scripts/functions.js`
-  * `dist/css/style.js`
+  * `index.html`
+  * `scripts/form.js`
+  * `scripts/functions.js`
+  * `css/style.js`
   * `index.html`
 
 ### Requirements
@@ -34,7 +34,7 @@ After completing this assignment, you should…
 
 
 ## Normal Mode
-Fork and then clone this repository. Open the dist/index.html file in your browser. You should see a number of forms, each titled with the name of a function you will need to create in the file `dist/scripts/functions.js`. The form fields will be passed as parameters to your function. Use these parameters to return the correct value from the function so that it can be displayed to the screen.
+Fork and then clone this repository. Open the index.html file in your browser. You should see a number of forms, each titled with the name of a function you will need to create in the file `scripts/functions.js`. The form fields will be passed as parameters to your function. Use these parameters to return the correct value from the function so that it can be displayed to the screen.
             
 
 
