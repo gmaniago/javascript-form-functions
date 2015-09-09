@@ -69,10 +69,51 @@ function nSum (n) {
 	return total;
 }
 
-function join 
+function join(value, selector) {
+x
+	return array.join(value, selector);
+}
+
+function countLetters (string) {
+	var array = []
+	var obj = {};
+	for (var i = 0; i < string.length; i++) {
+		var letter = string[i];
+		var count = 0;
+		for (var j = 0; j < string.length; j++) {
+			if (string[j] == letter) {
+				count ++;
+			}
+		}
+		obj[letter] = count;
+	}
+	for (var prop in obj) {
+		array.push(' ' + prop + ':' + obj[prop]);
+	}
+	return array;
 
 
+function maze(){
+	maze = [[true,true,true,true],
+			["start",false,true,true],
+			[true,false,false,false],
+			[true,true,true,false],
+			["end",false,false,false],
+			[true,true,true,true]]
 
+	return maze;
+}
+
+function table (array, year, make, model, color) {
+	var input = [];
+	for (var i = 0; i < array.length; i++) {
+		if (year == array[i].year || make == array[i].make || 
+			model == array[i].model || color == array[i].color) {
+			result.push(array[i]);
+		}
+	}
+	return result;
+}
 
 
 
